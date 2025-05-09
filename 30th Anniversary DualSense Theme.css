@@ -1,47 +1,48 @@
-/* Main body color (Light Grey) */
+/* Main body color (Light Silver/Grey) */
 .gamepad {
-  background-color: #b0b0b0; /* Light Grey */
+  background-color: #d1d1d1; /* Light Silver/Grey */
 }
 
-/* Accent color (Silver) */
+/* Accent color (Silver details on the controller) */
 .gamepad-accent {
-  background-color: #c0c0c0; /* Silver */
+  background-color: #a3a3a3; /* Medium Silver */
 }
 
-/* Button colors */
+/* Button colors - Darker grey for buttons */
 .gamepad-button {
-  background-color: #808080; /* Grey */
-  border: 2px solid #c0c0c0; /* Silver border */
+  background-color: #646464; /* Dark Grey */
+  border: 2px solid #a3a3a3; /* Silver border */
 }
 
 /* D-Pad */
 .dpad {
-  background-color: #808080; /* Grey */
+  background-color: #646464; /* Dark Grey */
 }
 
 /* Triggers (L2, R2) */
 .trigger {
-  background-color: #808080; /* Grey */
+  background-color: #646464; /* Dark Grey */
 }
 
 /* Joysticks */
 .joystick {
-  background-color: #808080; /* Grey */
+  background-color: #646464; /* Dark Grey */
 }
 
-/* Touchpad */
+/* Touchpad (Light Grey/Silver) */
 .touchpad {
-  background-color: #c0c0c0; /* Silver */
+  background-color: #c0c0c0; /* Light Silver */
+  border: 2px solid #a3a3a3; /* Silver border */
 }
 
-/* PS Button */
+/* PS Button (Silver with light grey highlights) */
 .ps-button {
-  background-color: #c0c0c0; /* Silver */
+  background-color: #a3a3a3; /* Silver */
 }
 
-/* Home Button */
+/* Home Button (Silver with light grey highlights) */
 .home-button {
-  background-color: #c0c0c0; /* Silver */
+  background-color: #a3a3a3; /* Silver */
 }
 
 /* Button Text (X, O, Square, Triangle) */
@@ -49,12 +50,12 @@
   color: #ffffff; /* White */
 }
 
-/* Light accents (silver details) */
+/* Accent light (for silver accents) */
 .accent-light {
-  background-color: #c0c0c0; /* Silver */
+  background-color: #c0c0c0; /* Light Silver */
 }
 
-/* Color the borders around the controller */
+/* Border around the controller (Silver) */
 .gamepad-container {
-  border: 5px solid #c0c0c0; /* Silver border */
+  border: 5px solid #a3a3a3; /* Silver border */
 }
