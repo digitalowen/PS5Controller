@@ -1,0 +1,52 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  overflow: hidden;
+}
+
+.controller.custom {
+  background: url('https://github.com/digitalowen/PS5Controller/blob/main/ps5_controller_30th_upscaled.png?raw=true') no-repeat center center;
+  background-size: contain;
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+}
+
+.button, .stick, .trigger, .dpad {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Face Buttons (X, O, Square, Triangle) */
+[data-button="0"] { top: 475px; left: 750px; width: 40px; height: 40px; }  /* X */
+[data-button="1"] { top: 440px; left: 790px; width: 40px; height: 40px; }  /* O */
+[data-button="2"] { top: 410px; left: 715px; width: 40px; height: 40px; }  /* Square */
+[data-button="3"] { top: 380px; left: 755px; width: 40px; height: 40px; }  /* Triangle */
+
+/* D-Pad */
+[data-button="12"] { top: 400px; left: 230px; width: 40px; height: 40px; } /* Up */
+[data-button="13"] { top: 480px; left: 230px; width: 40px; height: 40px; } /* Down */
+[data-button="14"] { top: 440px; left: 190px; width: 40px; height: 40px; } /* Left */
+[data-button="15"] { top: 440px; left: 270px; width: 40px; height: 40px; } /* Right */
+
+/* Triggers */
+[data-button="4"] { top: 100px; left: 200px; width: 60px; height: 20px; }  /* L1 */
+[data-button="5"] { top: 100px; left: 740px; width: 60px; height: 20px; }  /* R1 */
+[data-button="6"] { top: 60px;  left: 200px; width: 60px; height: 20px; }  /* L2 */
+[data-button="7"] { top: 60px;  left: 740px; width: 60px; height: 20px; }  /* R2 */
+
+/* Sticks */
+.stick.left  { top: 580px; left: 300px; width: 80px; height: 80px; }
+.stick.right { top: 580px; left: 620px; width: 80px; height: 80px; }
+
+/* Stick Buttons */
+[data-button="10"] { top: 610px; left: 330px; width: 40px; height: 40px; } /* L3 */
+[data-button="11"] { top: 610px; left: 650px; width: 40px; height: 40px; } /* R3 */
+
+/* Center Buttons */
+[data-button="8"] { top: 350px; left: 400px; width: 40px; height: 40px; } /* Share */
+[data-button="9"] { top: 350px; left: 560px; width: 40px; height: 40px; } /* Options */
+[data-button="16"]{ top: 400px; left: 480px; width: 40px; height: 40px; } /* PS */
+[data-button="17"]{ top: 320px; left: 480px; width: 60px; height: 60px; } /* Touchpad */
