@@ -1,36 +1,60 @@
-/* 30th Anniversary DualSense Theme */
-
-/* Controller Body */
-.controller.ds5 {
-  background-color: #c0c0c0; /* Silver body */
+/* Main body color (Light Grey) */
+.gamepad {
+  background-color: #b0b0b0; /* Light Grey */
 }
 
-/* Buttons */
-.ds5 .button {
-  background-color: #000000; /* Black buttons */
+/* Accent color (Silver) */
+.gamepad-accent {
+  background-color: #c0c0c0; /* Silver */
+}
+
+/* Button colors */
+.gamepad-button {
+  background-color: #808080; /* Grey */
+  border: 2px solid #c0c0c0; /* Silver border */
 }
 
 /* D-Pad */
-.ds5 .dpad {
-  background-color: #000000; /* Black D-Pad */
+.dpad {
+  background-color: #808080; /* Grey */
 }
 
-/* Sticks */
-.ds5 .stick {
-  background-color: #000000; /* Black sticks */
+/* Triggers (L2, R2) */
+.trigger {
+  background-color: #808080; /* Grey */
+}
+
+/* Joysticks */
+.joystick {
+  background-color: #808080; /* Grey */
 }
 
 /* Touchpad */
-.ds5 .touchpad {
-  background-color: #000000; /* Black touchpad */
+.touchpad {
+  background-color: #c0c0c0; /* Silver */
 }
 
-/* Triggers */
-.ds5 .trigger {
-  background-color: #000000; /* Black triggers */
+/* PS Button */
+.ps-button {
+  background-color: #c0c0c0; /* Silver */
 }
 
-/* Shoulder Buttons */
-.ds5 .shoulder {
-  background-color: #000000; /* Black shoulder buttons */
+/* Home Button */
+.home-button {
+  background-color: #c0c0c0; /* Silver */
+}
+
+/* Button Text (X, O, Square, Triangle) */
+.button-text {
+  color: #ffffff; /* White */
+}
+
+/* Light accents (silver details) */
+.accent-light {
+  background-color: #c0c0c0; /* Silver */
+}
+
+/* Color the borders around the controller */
+.gamepad-container {
+  border: 5px solid #c0c0c0; /* Silver border */
 }
