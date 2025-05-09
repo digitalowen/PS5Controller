@@ -1,0 +1,36 @@
+/* 30th Anniversary DualSense Theme */
+
+/* Controller Body */
+.controller.ds5 {
+  background-color: #c0c0c0; /* Silver body */
+}
+
+/* Buttons */
+.ds5 .button {
+  background-color: #000000; /* Black buttons */
+}
+
+/* D-Pad */
+.ds5 .dpad {
+  background-color: #000000; /* Black D-Pad */
+}
+
+/* Sticks */
+.ds5 .stick {
+  background-color: #000000; /* Black sticks */
+}
+
+/* Touchpad */
+.ds5 .touchpad {
+  background-color: #000000; /* Black touchpad */
+}
+
+/* Triggers */
+.ds5 .trigger {
+  background-color: #000000; /* Black triggers */
+}
+
+/* Shoulder Buttons */
+.ds5 .shoulder {
+  background-color: #000000; /* Black shoulder buttons */
+}
